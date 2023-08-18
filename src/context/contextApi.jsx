@@ -17,7 +17,7 @@ export const AppContext = (props) => {
     setLoading(true);
     fetchDataFromApi(`search/?q=${query}`).then(({ contents }) => {
       console.log(contents);
-      // setSearchResults(res)
+      setSearchResults(contents);
       setLoading(false);
     });
   };
@@ -27,7 +27,6 @@ export const AppContext = (props) => {
         loading,
         setLoading,
         searchResults,
-        setSearchResults,
         selectCategories,
         setSelectCategories,
         mobileMenu,
