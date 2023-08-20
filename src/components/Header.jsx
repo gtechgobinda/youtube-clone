@@ -5,10 +5,10 @@ import { IoIosSearch } from "react-icons/io";
 import { RiVideoAddLine } from "react-icons/ri";
 import { SlMenu } from "react-icons/sl";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import dpPhoto from "../assets/images/dp-photo.jpg";
+import ytLogoMobile from "../assets/images/yt-logo-mobile.png";
+import ytLogo from "../assets/images/yt-logo.png";
 import { Context } from "../context/contextApi";
-import dpPhoto from "../images/dp-photo.jpg";
-import ytLogoMobile from "../images/yt-logo-mobile.png";
-import ytLogo from "../images/yt-logo.png";
 import Loader from "../shared/Loader";
 
 const Header = () => {
